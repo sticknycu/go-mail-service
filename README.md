@@ -1,2 +1,2 @@
 # go-mail-service
-Service that handles mails using golani
+Service that handles mails using golang
