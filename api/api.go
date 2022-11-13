@@ -11,5 +11,5 @@ func NewAPI() *API {
 
 func (api *API) RegisterRoutes(ws *restful.WebService) {
 	ws.Path("/api/emails")
-	ws.Route(ws.POST("").To(api.sendEmail))
+	ws.Route(ws.POST("").To(api.handleSendEmail))
 }
